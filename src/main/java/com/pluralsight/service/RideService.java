@@ -8,4 +8,6 @@ public interface RideService {
 
 	List<Ride> getRides();
 
+	public Ride createRide(Ride ride);
+
 }
