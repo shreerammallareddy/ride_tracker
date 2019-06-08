@@ -18,8 +18,8 @@ public class RestControllerTest {
 		RestTemplate restTemplate = new RestTemplate();
 
 		Ride ride = new Ride();
-		ride.setName("Brigth angel Trails");
-		ride.setDuration(60);
+		ride.setName("Pocono Trails");
+		ride.setDuration(30);
 		
 		restTemplate.put("http://localhost:8080/ride_tracker/ride", ride);
 		
